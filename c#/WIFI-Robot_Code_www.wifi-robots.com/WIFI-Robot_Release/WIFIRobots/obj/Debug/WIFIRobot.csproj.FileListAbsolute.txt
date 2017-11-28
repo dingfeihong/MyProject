@@ -1,0 +1,144 @@
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\WIFIRobot.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\CommandEngine.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\Tiger.Video.VFW.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\CommandEngine.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.CustomSetting.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\WIFIRobot.FrameRateForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.GearRegul.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\WIFIRobot.Properties.Resources.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\WIFIRobot.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\WIFIRobot.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\bin\Debug\Tiger.Video.VFW.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.CustomSetting.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\WIFIRobot.FrameRateForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.GearRegul.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\WIFIRobot.Properties.Resources.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\motion\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CustomSetting.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.FrameRateForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.GearRegul.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.Properties.Resources.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\PvLogiciels.dotNetProtector.Runtime.dll
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.pdb
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe.config
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.exe
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.pdb
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.pdb
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Imaging.dll
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Math.dll
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.dll
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.dll
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.dll
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.pdb
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.pdb
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csprojResolveAssemblyReference.cache
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.AboutForm.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CameraWindow.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CustomSetting.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.FrameRateForm.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.GearRegul.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.MainForm.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.Properties.Resources.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.Config.resources
+E:\机器人\创意工作室\上位机控制端\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csproj.GenerateResource.Cache
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe.config
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.exe
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.pdb
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.pdb
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Imaging.dll
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Math.dll
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.dll
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.dll
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.dll
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.pdb
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.pdb
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csprojResolveAssemblyReference.cache
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.AboutForm.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CameraWindow.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CustomSetting.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.FrameRateForm.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.GearRegul.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.MainForm.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.Properties.Resources.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.Config.resources
+F:\迅雷下载\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csproj.GenerateResource.Cache
+F:\资料\WIFI机器人网Arduino-DSRobot WIFI智能小车机器人资料合集\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe.config
+F:\资料\WIFI机器人网Arduino-DSRobot WIFI智能小车机器人资料合集\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.exe
+F:\资料\WIFI机器人网Arduino-DSRobot WIFI智能小车机器人资料合集\上位机源代码(PC+Android安卓)\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.pdb
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe.config
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.exe
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.pdb
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.exe
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\WIFIRobot.pdb
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Imaging.dll
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.Math.dll
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.dll
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.dll
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\AForge.dll
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\dshow.pdb
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\bin\Debug\Tiger.Video.VFW.pdb
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csprojResolveAssemblyReference.cache
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.AboutForm.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CameraWindow.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.CustomSetting.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.FrameRateForm.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.GearRegul.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.MainForm.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.Properties.Resources.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\motion.Config.resources
+F:\project\c#\WIFI-Robot_Code_www.wifi-robots.com\WIFI-Robot_Release\WIFIRobots\obj\Debug\WIFIRobot.csproj.GenerateResource.Cache

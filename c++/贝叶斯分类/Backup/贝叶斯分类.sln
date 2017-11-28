@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "贝叶斯分类", "贝叶斯分类\贝叶斯分类.vcproj", "{40F4EA0C-83E0-4319-BEAD-F5D3F0801640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F4EA0C-83E0-4319-BEAD-F5D3F0801640}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40F4EA0C-83E0-4319-BEAD-F5D3F0801640}.Debug|Win32.Build.0 = Debug|Win32
+		{40F4EA0C-83E0-4319-BEAD-F5D3F0801640}.Release|Win32.ActiveCfg = Release|Win32
+		{40F4EA0C-83E0-4319-BEAD-F5D3F0801640}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

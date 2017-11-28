@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\bin\Debug\FTPClient.exe.config
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\bin\Debug\FTPClient.exe
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\bin\Debug\FTPClient.pdb
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\obj\Debug\FTPClient.Properties.Resources.resources
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\obj\Debug\FTPClient.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\obj\Debug\FTPClient.exe
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\obj\Debug\FTPClient.pdb
+D:\Documents\Visual Studio 2012\Projects\FTP\FTPClient\obj\Debug\FTPClient.frmClientMain.resources

@@ -1,0 +1,190 @@
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\GenerateResource.read.1.tlog
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\bin\Debug\Test_Bulk.exe
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\bin\Debug\Test_Bulk.pdb
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.exe
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.pdb
+C:\Users\jack\Desktop\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.exe
+C:\Users\jack\Desktop\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.pdb
+C:\Users\jack\Desktop\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Users\jack\Desktop\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Users\jack\Desktop\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\stm32usb发送双缓冲\Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.exe
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.pdb
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Users\john\Desktop\Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\Test_Bulk\bin\Debug\Test_Bulk.exe
+C:\Users\john\Desktop\Test_Bulk\bin\Debug\Test_Bulk.pdb
+C:\Users\john\Desktop\Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\Test_Bulk2\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\Test_Bulk2\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\Test_Bulk2\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\Test_Bulk2\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\2 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\2 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\2 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\2 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\2 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\3 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\3 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\3 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\3 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\3 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\4 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\4 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\4 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\4 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\4 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\5 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\5 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\5 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\6 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\6 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\6 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\7 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\7 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\7 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\7 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\7 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\7 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\7 Test_Bulk\bin\Debug\ZGraph.dll
+I:\项目\超声波\上位机程序\7 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\7 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\7 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\8 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\8 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\8 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\8 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\8 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\8 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\8 Test_Bulk\bin\Debug\ZGraph.dll
+I:\项目\超声波\上位机程序\8 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\8 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\8 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\9 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\9 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\9 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\9 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\9 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\9 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\9 Test_Bulk\bin\Debug\ZGraph.dll
+I:\项目\超声波\上位机程序\9 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\9 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\9 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\10 Test_Bulk\bin\Debug\Test_Bulk.exe.config
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\10 Test_Bulk\bin\Debug\Test_Bulk.exe
+I:\项目\超声波\上位机程序\10 Test_Bulk\bin\Debug\Test_Bulk.pdb
+I:\项目\超声波\上位机程序\10 Test_Bulk\bin\Debug\LibUsbDotNet.dll
+I:\项目\超声波\上位机程序\10 Test_Bulk\bin\Debug\ZGraph.dll
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+I:\项目\超声波\上位机程序\10 Test_Bulk\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波\bin\Debug\Test_Bulk.exe.config
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波\obj\Debug\Test_Bulk.exe
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波\obj\Debug\Test_Bulk.pdb
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\bin\Debug\Test_Bulk.exe.config
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.exe
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.pdb
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\bin\Debug\Test_Bulk.exe
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\bin\Debug\Test_Bulk.pdb
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\bin\Debug\LibUsbDotNet.dll
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\bin\Debug\ZGraph.dll
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Users\huangshangfo\Desktop\物联网竞赛\超声波代码\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+E:\物联网\超声波代码\bin\Debug\Test_Bulk.exe.config
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.exe
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.pdb
+E:\物联网\超声波代码\bin\Debug\Test_Bulk.exe
+E:\物联网\超声波代码\bin\Debug\Test_Bulk.pdb
+E:\物联网\超声波代码\bin\Debug\LibUsbDotNet.dll
+E:\物联网\超声波代码\bin\Debug\ZGraph.dll
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.fTestBulk.resources
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.Properties.Resources.resources
+E:\物联网\超声波代码\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\bin\Debug\Test_Bulk.exe.config
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.exe
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.pdb
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\bin\Debug\Test_Bulk.exe
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\bin\Debug\Test_Bulk.pdb
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\bin\Debug\LibUsbDotNet.dll
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\bin\Debug\ZGraph.dll
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Users\huangshangfo\Desktop\超声波代码数据触发\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\bin\Debug\Test_Bulk.exe.config
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.exe
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.pdb
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\bin\Debug\Test_Bulk.exe
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\bin\Debug\Test_Bulk.pdb
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\bin\Debug\LibUsbDotNet.dll
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\bin\Debug\ZGraph.dll
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.fTestBulk.resources
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.Properties.Resources.resources
+G:\桌面文件夹\竞赛\物联网竞赛\超声波代码数据触发\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\bin\Debug\Test_Bulk.exe.config
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.exe
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.pdb
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\bin\Debug\Test_Bulk.exe
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\bin\Debug\Test_Bulk.pdb
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\bin\Debug\LibUsbDotNet.dll
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\bin\Debug\ZGraph.dll
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.fTestBulk.resources
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.Properties.Resources.resources
+E:\项目\超声波-手势识别\STM32版\超声波代码数据触发2\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache
+E:\project\物联网\超声波代码数据触发MYF\bin\Debug\Test_Bulk.exe.config
+E:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.exe
+E:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发MYF\bin\Debug\Test_Bulk.exe.config
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.exe
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发MYF\bin\Debug\Test_Bulk.exe
+F:\project\物联网\超声波代码数据触发MYF\bin\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发MYF\bin\Debug\LibUsbDotNet.dll
+F:\project\物联网\超声波代码数据触发MYF\bin\Debug\ZGraph.dll
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.fTestBulk.resources
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.Properties.Resources.resources
+F:\project\物联网\超声波代码数据触发MYF\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache

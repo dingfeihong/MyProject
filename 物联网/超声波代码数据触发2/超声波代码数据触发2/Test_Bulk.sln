@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Bulk", "Test_Bulk.csproj", "{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4815F03A-3B7C-40DA-ABC6-BB86D5E26BC1}"
+	ProjectSection(SolutionItems) = preProject
+		..\SoundCatcher2.0\SoundCatcher\SoundCatcher\AudioFrame.cs = ..\SoundCatcher2.0\SoundCatcher\SoundCatcher\AudioFrame.cs
+		..\..\项目代码\C#\Useful\SoundCatcher0125\SoundCatcher\SoundCatcher\FormMain.cs = ..\..\项目代码\C#\Useful\SoundCatcher0125\SoundCatcher\SoundCatcher\FormMain.cs
+		..\SoundCatcher2.0\SoundCatcher\SoundCatcher\FourierTransform.cs = ..\SoundCatcher2.0\SoundCatcher\SoundCatcher\FourierTransform.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items (2)", "Solution Items (2)", "{D5FFAB39-9AC9-47F7-B67B-AA408B59C525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundCatcher", "..\..\HMM\HMM_0321\手势样本采集\SoundCatcher_train2\SoundCatcher\SoundCatcher\SoundCatcher.csproj", "{CE872C45-3833-467E-A275-AD446B2282D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items (3)", "Solution Items (3)", "{9D898840-EE01-4ED7-B0DF-A07AC77C4A2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items (4)", "Solution Items (4)", "{51B993EE-FE3F-44B0-8FA1-C0EEBF2670C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\HMM\HMM_0321\HMM模型评估\HMM_code\accord-hmm-source\Copyright.txt = ..\..\HMM\HMM_0321\HMM模型评估\HMM_code\accord-hmm-source\Copyright.txt
+		..\..\HMM\HMM_0321\HMM模型评估\HMM_code\accord-hmm-source\License.txt = ..\..\HMM\HMM_0321\HMM模型评估\HMM_code\accord-hmm-source\License.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|x86.ActiveCfg = Debug|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Debug|x86.Build.0 = Debug|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|x86.ActiveCfg = Release|x86
+		{2AA77B1D-5F6B-4206-954C-ED8D6E7DEA1B}.Release|x86.Build.0 = Release|x86
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CE872C45-3833-467E-A275-AD446B2282D3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

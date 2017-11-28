@@ -1,0 +1,15 @@
+E:\project\c#\MyWeb\OrderModel\bin\Debug\OrderModel.dll
+E:\project\c#\MyWeb\OrderModel\bin\Debug\OrderModel.pdb
+E:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.csprojResolveAssemblyReference.cache
+E:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.dll
+E:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.pdb
+F:\MyWeb\OrderModel\bin\Debug\OrderModel.dll
+F:\MyWeb\OrderModel\bin\Debug\OrderModel.pdb
+F:\MyWeb\OrderModel\obj\Debug\OrderModel.csprojResolveAssemblyReference.cache
+F:\MyWeb\OrderModel\obj\Debug\OrderModel.dll
+F:\MyWeb\OrderModel\obj\Debug\OrderModel.pdb
+F:\project\c#\MyWeb\OrderModel\bin\Debug\OrderModel.dll
+F:\project\c#\MyWeb\OrderModel\bin\Debug\OrderModel.pdb
+F:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.csprojResolveAssemblyReference.cache
+F:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.dll
+F:\project\c#\MyWeb\OrderModel\obj\Debug\OrderModel.pdb

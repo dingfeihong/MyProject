@@ -1,0 +1,2 @@
+﻿贝叶斯.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  贝叶斯分类.vcxproj -> F:\project\c++\贝叶斯分类\Debug\贝叶斯分类.exe

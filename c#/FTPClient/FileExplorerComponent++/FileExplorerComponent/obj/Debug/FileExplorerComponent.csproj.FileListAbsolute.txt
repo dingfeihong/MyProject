@@ -1,0 +1,8 @@
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\bin\Debug\FileExplorerComponent.dll
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\bin\Debug\FileExplorerComponent.pdb
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.csprojResolveAssemblyReference.cache
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.Properties.Resources.resources
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.FileExplorer.resources
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.csproj.GenerateResource.Cache
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.dll
+F:\project\c#\FTPClient\FileExplorerComponent++\FileExplorerComponent\obj\Debug\FileExplorerComponent.pdb

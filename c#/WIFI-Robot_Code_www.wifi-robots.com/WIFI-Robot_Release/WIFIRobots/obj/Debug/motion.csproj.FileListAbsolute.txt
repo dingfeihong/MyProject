@@ -1,0 +1,63 @@
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\motion.exe
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\motion.pdb
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\motion_src\motion\bin\Debug\Tiger.Video.VFW.pdb
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\ResGen.read.1.tlog
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\ResGen.write.1.tlog
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.exe
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.pdb
+C:\Users\liuviking\Desktop\motion_src\motion\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.exe
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\motion.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\motion.exe
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\motion.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\CommandEngine.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\Tiger.Video.VFW.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\bin\Debug\CommandEngine.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot\motion\obj\Debug\motion.Properties.Resources.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\motion.exe.config
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.exe
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.AboutForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.CameraWindow.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.MainForm.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.Properties.Resources.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.Config.resources
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\motion.exe
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\motion.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.Imaging.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.Math.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\CommandEngine.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\dshow.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\Tiger.Video.VFW.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\AForge.dll
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\dshow.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\Tiger.Video.VFW.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\bin\Debug\CommandEngine.pdb
+C:\Users\liuviking\Desktop\WIFI-Robot - 副本\motion\obj\Debug\motion.GearRegul.resources

@@ -1,0 +1,9 @@
+F:\project\c#\MyFtp\MyFtp\bin\Debug\MyFtp.exe.config
+F:\project\c#\MyFtp\MyFtp\bin\Debug\MyFtp.exe
+F:\project\c#\MyFtp\MyFtp\bin\Debug\MyFtp.pdb
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.csprojResolveAssemblyReference.cache
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.Form1.resources
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.Properties.Resources.resources
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.csproj.GenerateResource.Cache
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.exe
+F:\project\c#\MyFtp\MyFtp\obj\Debug\MyFtp.pdb

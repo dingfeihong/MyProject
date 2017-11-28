@@ -1,0 +1,3 @@
+C:\Users\liuviking\Desktop\motion_src\dshow\bin\Release\dshow.dll
+C:\Users\liuviking\Desktop\motion_src\dshow\obj\Release\ResolveAssemblyReference.cache
+C:\Users\liuviking\Desktop\motion_src\dshow\obj\Release\dshow.dll

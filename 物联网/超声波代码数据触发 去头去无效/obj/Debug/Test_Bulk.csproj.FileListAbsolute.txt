@@ -1,0 +1,14 @@
+E:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\Test_Bulk.exe.config
+E:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.exe
+E:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\Test_Bulk.exe.config
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.exe
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\Test_Bulk.exe
+F:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\Test_Bulk.pdb
+F:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\LibUsbDotNet.dll
+F:\project\物联网\超声波代码数据触发 去头去无效\bin\Debug\ZGraph.dll
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.csprojResolveAssemblyReference.cache
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.fTestBulk.resources
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.Properties.Resources.resources
+F:\project\物联网\超声波代码数据触发 去头去无效\obj\Debug\Test_Bulk.csproj.GenerateResource.Cache

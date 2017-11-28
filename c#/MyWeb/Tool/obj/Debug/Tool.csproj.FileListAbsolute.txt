@@ -1,0 +1,10 @@
+E:\project\c#\MyWeb\Tool\bin\Debug\Tool.dll
+E:\project\c#\MyWeb\Tool\bin\Debug\Tool.pdb
+E:\project\c#\MyWeb\Tool\obj\Debug\Tool.csprojResolveAssemblyReference.cache
+E:\project\c#\MyWeb\Tool\obj\Debug\Tool.dll
+E:\project\c#\MyWeb\Tool\obj\Debug\Tool.pdb
+F:\project\c#\MyWeb\Tool\bin\Debug\Tool.dll
+F:\project\c#\MyWeb\Tool\bin\Debug\Tool.pdb
+F:\project\c#\MyWeb\Tool\obj\Debug\Tool.csprojResolveAssemblyReference.cache
+F:\project\c#\MyWeb\Tool\obj\Debug\Tool.dll
+F:\project\c#\MyWeb\Tool\obj\Debug\Tool.pdb

@@ -1,0 +1,55 @@
+
+
+Hýrsýzlar atakdaysa gider tablosunda görünmüyo
+
+Haraç kesmede ölen ö.koruma sayýsý yazmýyo baþarýlý olunca
+-------------------Max_User_Con __LOG----------
+Warning: mysql_connect() [function.mysql-connect]: User lanistawars already has more than 'max_user_connections' active connections in C:\Inetpub\vhosts\lanistawars.com\httpdocs\connect.php on line 3
+BaglanamadÄ± :User lanistawars already has more than 'max_user_connections' active connections
+1-)09-10-2011 (23:01)
+2-)10-10-2011 (02:18)
+3-)10-10-2011 (12-17)(xash)
+4-)10-10-2011 (12-19)(xash)
+5-)10-10-2011 (12-30)(xash)
+6-)10-10-2011 (12-33)(xash)
+6-)10-10-2011 (13-28)
+
+
+Merhaba danýþmanlýk sisteminde yeni görünüyorsun 64torpido64.Senin danýþmanlýðýný gönüllü olarak ben yapacaðým.Oyundaki görev sistemini bitirdikten sonra benimle iletiþime geç mesaj atarak diðer görevleri vereceðim sana.Oyun hakkýnda merak ettiðin birþey olursa mesaj atabilirsin her zaman.
+
+
+1. Görev = Hýrsýz sayýsýný 500 den yukarý cýkar ve "x" oyuncusundan 50k veya uzeri para cal.
+2. Görev = Onur puanýný 25 e cýkar
+3. Görev = 1 Adet turnuva kur.
+4. Görev = 5 Maç kazan
+5. Görev = 2 Farklý farm oyuncu bul (Birikmiþ parasý olan)
+6. Görev = Taverna seviyesini 7. Seviye yap.
+7. Görev = 2 Turnuva kazan.
+8. Görev = Savaþçýlarýndan bir tanesinin tecrube puanýný 400'e çýkar
+9. Görev = Takým puanýný 5000'e çýkar
+10. Görev = 2 Demirci al gorevi var
+Ödüller----
+Odul= gorev sayýsý * 10k para
+yani 6. gorev tamamlanmýþ ise 60 k para kazanýyor. Bu sistem basta su sekilde ilerleyecektir. Mentor gorevleri tek tek verdikten sonra oyuncudan gorev tamamladýðýna dair bilgilendirme alacak. Bu bilgilendirmeyi bana gonderecek ben oyuncunun banka hesabýna parayý yatýracaðým. Eðer sistemden geri donus alabilirsek bunu bir programa donustururuz Herkese baþarýlar.
+
+
+akhnos	11 (%50)	11 (%50)	21109	Stratonikeia
+2	rsercano	100 (%70)	43 (%30)	18106	Good Fellas
+3	berber	119 (%60)	79 (%40)	12628	Good Fellas
+4	geber	69 (%41)	99 (%59)	9526	Good Fellas
+5	tol07	8 (%32)	17 (%68)	6442	Alchetra
+6	palantýr	19 (%54)	16 (%46)	6362	ALAMUT
+7	falen	36 (%59)	25 (%41)	6174	Alchetra
+8	magnator	1 (%13)	7 (%88)	6129	Good Fellas
+9	emre2345	13 (%28)	33 (%72)	5672	Girdap
+10	fluff	5 (%36)	9 (%64)	3887	Alchetra
+11	Elgar	22 (%49)	23 (%51)	3648	
+12	zararsizdeli	15 (%75)	5 (%25)	3212	ALAMUT
+13	gnnc	6 (%30)	14 (%70)	3173	
+14	Ýlithre	17 (%53)	15 (%47)	3121	Alchetra
+15	Veldanin	2 (%17)	10 (%83)	2912	
+16	spartacük	3 (%43)	4 (%57)	2716	
+17	omeryavuz	2 (%50)	2 (%50)	2680	
+18	SEZAR	1 (%33)	2 (%67)	2655	
+19	aqaqqa	5 (%38)	8 (%62)	1955	Stratonikeia
+20	OverseeR	4 (%17)	19 (%83)	1895	

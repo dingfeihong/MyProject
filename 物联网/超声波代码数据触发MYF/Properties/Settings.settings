@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Test_Bulk.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingSamplesPerSecond" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">292654</Value>
+    </Setting>
+    <Setting Name="SettingBytesPerFrame" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16384</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

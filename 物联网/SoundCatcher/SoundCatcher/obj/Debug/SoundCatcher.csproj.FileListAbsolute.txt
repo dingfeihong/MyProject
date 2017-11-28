@@ -1,0 +1,12 @@
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\bin\Debug\SoundCatcher.exe.config
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\bin\Debug\SoundCatcher.exe
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\bin\Debug\SoundCatcher.pdb
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.csprojResolveAssemblyReference.cache
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.FormSettingsDialog.resources
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.FormOptionsDialog.resources
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.FormAboutDialog.resources
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.FormMain.resources
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.Properties.Resources.resources
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.csproj.GenerateResource.Cache
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.exe
+E:\项目\超声波-手势识别\项目代码\C#\Useful\SoundCatcher2.0\SoundCatcher\SoundCatcher\obj\Debug\SoundCatcher.pdb

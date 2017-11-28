@@ -1,0 +1,10 @@
+F:\project\c#\MyStore\LogLayer\bin\Debug\LogLayer.dll
+F:\project\c#\MyStore\LogLayer\bin\Debug\LogLayer.pdb
+F:\project\c#\MyStore\LogLayer\bin\Debug\Model.dll
+F:\project\c#\MyStore\LogLayer\bin\Debug\Tool.dll
+F:\project\c#\MyStore\LogLayer\bin\Debug\Model.pdb
+F:\project\c#\MyStore\LogLayer\bin\Debug\Tool.pdb
+F:\project\c#\MyStore\LogLayer\obj\Debug\LogLayer.csprojResolveAssemblyReference.cache
+F:\project\c#\MyStore\LogLayer\obj\Debug\LogLayer.csproj.ResolveComReference.cache
+F:\project\c#\MyStore\LogLayer\obj\Debug\LogLayer.dll
+F:\project\c#\MyStore\LogLayer\obj\Debug\LogLayer.pdb

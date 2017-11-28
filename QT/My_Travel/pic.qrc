@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pic/appbar.arrow.right.png</file>
+        <file>pic/appbar.close.png</file>
+        <file>pic/appbar.cloudirc.png</file>
+        <file>pic/appbar.foot.png</file>
+        <file>pic/appbar.location.round.png</file>
+        <file>pic/appbar.magnify.browse.png</file>
+        <file>pic/appbar.magnify.png</file>
+        <file>pic/appbar.plane.png</file>
+        <file>pic/appbar.redo.point.png</file>
+        <file>pic/appbar.social.aim.png</file>
+        <file>pic/bg.png</file>
+        <file>pic/button.png</file>
+        <file>pic/icon.png</file>
+        <file>pic/paifang.jpg</file>
+        <file>pic/psu.jpg</file>
+        <file>pic/search.png</file>
+        <file>pic/map3.png</file>
+    </qresource>
+</RCC>

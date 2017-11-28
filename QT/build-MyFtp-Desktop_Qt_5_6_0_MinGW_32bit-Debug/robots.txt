@@ -1,0 +1,3 @@
+# robots.txt for http://ftp.sjtu.edu.cn/
+User-agent: *
+Disallow: /logs/
