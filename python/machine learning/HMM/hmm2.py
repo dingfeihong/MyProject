@@ -27,7 +27,7 @@ class HMM:
     # 函数名称：Forward *功能：前向算法估计参数 *参数:phmm:指向HMM的指针
     # T:观察值序列的长度 O:观察值序列    
     # alpha:运算中用到的临时数组 pprob:返回值,所要求的概率
-    def Forward(self,T,O,alpha,pprob):
+    def Forward(self,T,O,alpha):
     #     1. Initialization 初始化
         for i in range(self.N):
             alpha[0,i] = self.pi[i]*self.B[i,O[0]]
@@ -43,8 +43,8 @@ class HMM:
         sum = 0.0
         for i in range(self.N):
             sum += alpha[T-1,i]
-        pprob[0] *= sum
-    
+        
+        print sum
     # 带修正的前向算法
     def ForwardWithScale(self,T,O,alpha,scale,pprob):
         scale[0] = 0.0
@@ -72,11 +72,11 @@ class HMM:
     #     3. Termination
         for t in range(T):
             pprob[0] += np.log(scale[t])
-
+        
     # 函数名称：Backward * 功能:后向算法估计参数 * 参数:phmm:指向HMM的指针 
     # T:观察值序列的长度 O:观察值序列 
     # beta:运算中用到的临时数组 pprob:返回值，所要求的概率
-    def Backword(self,T,O,beta,pprob):
+    def Backword(self,T,O,beta):
     #     1. Intialization
         for i in range(self.N):
             beta[T-1,i] = 1.0
@@ -89,10 +89,10 @@ class HMM:
                 beta[t,i] = sum
                 
     #     3. Termination
-        pprob[0] = 0.0
+        pprob = 0.0
         for i in range(self.N):
-            pprob[0] += self.pi[i]*self.B[i,O[0]]*beta[0,i]
-    
+            pprob += self.pi[i]*self.B[i,O[0]]*beta[0,i]
+        print pprob
     # 带修正的后向算法
     def BackwardWithScale(self,T,O,beta,scale):
     #     1. Intialization
@@ -225,7 +225,7 @@ class HMM:
 
 if __name__ == "__main__":
     print "python my HMM"
-  
+
     A = [[0.8125,0.1875],[0.2,0.8]]
     B = [[0.875,0.125],[0.25,0.75]]
     pi = [0.5,0.5]
@@ -239,6 +239,7 @@ if __name__ == "__main__":
     alpha = np.zeros((T,hmm.N),np.float)
     beta = np.zeros((T,hmm.N),np.float)
     gamma = np.zeros((T,hmm.N),np.float)
-    hmm.BaumWelch(L,T,O,alpha,beta,gamma)
-    
+    #hmm.BaumWelch(L,T,O,alpha,beta,gamma)
+    hmm.Backword(T,O,beta)
+    hmm.Forword(T,O,beta)
     hmm.printhmm()
