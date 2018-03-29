@@ -16,7 +16,8 @@ def loadDataSet(fileName):
 
 def SaveDataSet(df):
     print(df)
-    df.to_csv("data\Data.txt", index=False)
+    with open("data\EnergyData.csv", 'w+') as f:
+        df.to_csv(f, header=True, index=False)
 def DataProcess(data):
     #删除无用列
     data = data.drop('AH_AnalogNo', axis=1)
@@ -39,7 +40,7 @@ def DataProcess(data):
         currentTime=currentTime+delta
         currentMaxValue=data[data['AH_Time']<currentTime].max(0).iloc[1]
         s = pd.Series([str(currentTime)[:10]+' 00:00:00',currentMaxValue-lastValue],index=['Time','Value'])
-        #print(s)
+        print(s)
         df = df.append(s, ignore_index=True)
         lastValue=currentMaxValue
     #df.set_index(['Time','Value'])
