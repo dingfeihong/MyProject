@@ -60,10 +60,10 @@ emission_probability = {
 """
 class HMM:
     def __init__(self, states,start_probability, transition_probability, emission_probability):
-        self.m_states = states
-        self.m_startProb = start_probability
-        self.m_transProb = transition_probability
-        self.m_emitProb = emission_probability
+        self.m_states = states  #隐状态
+        self.m_startProb = start_probability #起始概率
+        self.m_transProb = transition_probability   #转移概率
+        self.m_emitProb = emission_probability  #发射概率
 
     #打印路径概率表
     def print_dptable(self,V):

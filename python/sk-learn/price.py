@@ -19,7 +19,7 @@ svr_poly = SVR(kernel='poly', C=1e3, degree=2)
 y_rbf = svr_rbf.fit(X, y).predict(X)
 y_lin = svr_lin.fit(X, y).predict(X)
 y_poly = svr_poly.fit(X, y).predict(X)
->
+
 ###############################################################################
 # look at the results
 plt.scatter(X, y, c='k', label='data')
