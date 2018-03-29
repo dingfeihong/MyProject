@@ -27,18 +27,10 @@ def GetData(url): #url，num：城市编码
     index=0
     for item in weather_list:
         # od21小时，od22温度，od26降雨，od24风向，od25风力
-        '''
-        weather_item = {}
-        weather_item['time'] = item['od21']
-        weather_item['temperature'] = item['od22']
-        weather_item['rain'] = item['od26']
-        weather_item['humidity'] = item['od27']
-        weather_item['windDirection'] = item['od24']
-        weather_item['windPower'] = item['od25']
-        '''
-        s = pd.Series([GetTime(item['od21'],datetime.now().hour,index),item['od22'],item['od26'],item['od27'],GetWindDirection(item['od24']),item['od25']], index=['Time', 'Temperature','Rain','Humidity','WindDirection','WindPower'])
+        s = pd.Series([GetTime(item['od21'],index),item['od22'],item['od26'],item['od27'],GetWindDirection(item['od24']),item['od25']], index=['Time', 'Temperature','Rain','Humidity','WindDirection','WindPower'])
         df = df.append(s, ignore_index=True)
         index=index+1
+    print(df)
     return df
 def GetWindDirection(windDirection):
     dict={}
@@ -52,11 +44,15 @@ def GetWindDirection(windDirection):
     dict['东北风'] = 7
     dict['暂无风向']= 8
     return dict[windDirection]
-def GetTime(time,endTime,index):
+def GetTime(time,index):
+    endTime=datetime.now().hour
+    finalTime=''
     if(index<24-endTime):
-        return getDay(1) + ' ' + time + ':00:00'
+        finalTime = getDay(1) + ' ' + time + ':00:00'
     else:
-        return getDay(0) + ' ' + time + ':00:00'
+        finalTime = getDay(0) + ' ' + time + ':00:00'
+    print(finalTime)
+    return finalTime
 
 #获取时间
 def getDay(delta):
@@ -78,19 +74,18 @@ def LoadAndSave(df,fileName):
         new.to_csv(f, header=True, index=False)
 def Tick1():
     print('The time is: %s' % datetime.now())
-
-    fileName='Real-time weather.csv'
+    fileName='data/Real-time weather.csv'
     df = GetData("http://www.weather.com.cn/weather1d/101200101.shtml")
     LoadAndSave(df, fileName)
     print(df)
 def Tick2():
     print('Tick! The time is: %s' % datetime.now())
     df = GetData("http://www.weather.com.cn/weather1d/101200101.shtml")
-    Save(df, getDay(1) + '.csv')
+    Save(df, 'data/'+getDay(1) + '.csv')
     print(df)
 
 if __name__ == "__main__":
-    Tick1()
+    Tick2()
 
     # scheduler = BlockingScheduler()
     # scheduler.add_job(Tick1,'cron',hour=8)
