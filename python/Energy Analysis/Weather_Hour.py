@@ -47,7 +47,7 @@ def GetWindDirection(windDirection):
 def GetTime(time,index):
     endTime=datetime.now().hour
     finalTime=''
-    if(index<24-endTime):
+    if(index<=24-endTime):
         finalTime = getDay(1) + ' ' + time + ':00:00'
     else:
         finalTime = getDay(0) + ' ' + time + ':00:00'
@@ -70,6 +70,7 @@ def LoadAndSave(df,fileName):
     with open(fileName, 'w') as f:
         new=old.append(df)
         new=new.drop_duplicates(['Time'],keep='first')
+        new=new.sort_values(by=['Time'])
         print(new)
         new.to_csv(f, header=True, index=False)
 def Tick1():
@@ -85,7 +86,7 @@ def Tick2():
     print(df)
 
 if __name__ == "__main__":
-    Tick2()
+    Tick1()
 
     # scheduler = BlockingScheduler()
     # scheduler.add_job(Tick1,'cron',hour=8)
