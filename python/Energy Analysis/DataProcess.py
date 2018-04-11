@@ -75,6 +75,22 @@ def DataProcessHour(data):
     #df.set_index(['Time','Value'])
     df['Week'] = pd.to_datetime(df['Time']).dt.weekday
     return df
+def GetHistoryValue(offsetDay,data):
+    newData=data.iloc[offsetDay*24:,:]
+    newData=newData.reset_index(drop=True)
+    newData[str(offsetDay)+'DayAgoValue']=data['Value'][:-offsetDay*24]
+    print(newData)
+    return newData
+def GetHistoryHourValue(offsetHour,data):
+    newData=data.iloc[offsetHour:,:]
+    newData=newData.reset_index(drop=True)
+    newData[str(offsetHour)+'HourAgoValue']=data['Value'][:-offsetHour]
+    print(newData)
+    return newData
 if __name__=="__main__":
-    rawData=loadDataSet('data\GuanghuaSelect.txt')
-    SaveDataSet(DataProcessHour(rawData),"data\EnergyDataHour.csv",)
+    rawData=loadDataSet('data\\0410.csv')
+    newData=DataProcessHour(rawData)
+    newData2=GetHistoryValue(1,newData)
+    newData2 = GetHistoryHourValue(1, newData2)
+
+    SaveDataSet(newData2,"data\EnergyDataHourNew.csv",)
