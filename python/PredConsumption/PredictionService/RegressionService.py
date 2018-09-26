@@ -100,9 +100,7 @@ def modelsSelect(x_origin, y_origin):
     y_add = np.array(y_test - y_test).T[0]
     print(y_add.shape)
     count = 0
-    # y_add
-    # mse,r2=TrainNeuralNetwork(X_train, X_test, y_train, y_test,earlystop=1)
-    # result.append(['NeuralNetwork',mse,r2])
+
     for modelName, model in modelDict.items():
         starttime = datetime.datetime.now()
         # if(modelName=='RandomForest'):
@@ -186,7 +184,7 @@ def RegressionAdapt(x_Data, y_Data, modelName, plotSwitch=True):
     else:
         y_pred = model.predict(X_test)
         mse, r2 = Evaluate(y_test, y_pred, plotSwitch)
-        RegressionAdapt = plt.figure(modelName)
+        #RegressionAdapt = plt.figure(modelName)
     return mse, r2
 
 

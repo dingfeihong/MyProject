@@ -15,9 +15,34 @@ def loadDataSet(fileName):
     # 读取数据
     table = pd.read_table(fileName, header=0, sep=",")
     return table
+def getDataFromDict(inp_dict):
+    depID=inp_dict['DepConsumptionList'][0]['depID']
+    valueList=inp_dict['DepConsumptionList'][0]['ValueList']
+    rawdata = pd.DataFrame(valueList)
+    lastYeardf = pd.DataFrame(inp_dict['DepConsumptionList'][0]['LastYearValueList'])
+    rawdata['YL']=lastYeardf['Value']
+    df=rawdata[30*24:].reset_index(drop=True)#切片获取数据
 
-def getDataFromList(data):
+    #月历史能耗
+    df = getHistoryDayValue(30, df, rawdata)
 
+    #一周历史能耗
+    for i in range(7):
+        df = getHistoryDayValue(i+1, df, rawdata)
+
+    #24小时历史能耗
+    for i in range(24):
+        df = getHistoryHourValue(i+1, df, rawdata, 1)
+
+    df = df.drop('Date', axis=1)
+    print(df)
+    df=df.fillna(value=0)
+
+    value = df.loc[:, ['Value']]
+    feature = df.drop('Value', axis=1)
+    return value, feature
+def getDataFromList(datalist):
+    data = pd.DataFrame(datalist)
     #时间格式处理
     data["Time"] = data["Time"].apply(lambda x: str(x))
     #data = data.drop('LastTestTime', axis=1)
@@ -39,6 +64,7 @@ def getDataFromList(data):
     data = data.reset_index(drop=True)
 
     data = data.drop('Time', axis=1)
+
     print(data)
     value=data.loc[:,['Value']]
     feature = data.drop('Value', axis=1)
@@ -83,21 +109,34 @@ def nullOperation(weather):
     return weather.interpolate()
 
 
-# 电表数据，获取历史能耗
-def getHistoryValue(offsetDay, data):
+# 电表数据，获取以天为单位位移的历史能耗
+def getHistoryDayValue(offsetDay, data):
     offset = offsetDay*24
     data['DL' + str(offsetDay)] = data['Value']
     data['DL' + str(offsetDay)][offset:] =  data['DL' + str(offsetDay)] [:-offset]
     data['DL' + str(offsetDay)][:offset] = None
     return data
 
+def getHistoryDayValue(offsetDay, data,historydata):
+    offset = offsetDay*24
+    size=data.shape[0]
+    data['DL' + str(offsetDay)] =  historydata[-(size+offset):-offset].reset_index(drop=True)['Value']
+    #print(data)
+    return data
 
-# 电表数据，获取历史小时能耗
-def getHistoryHourValue(offsetHour, data, hourdisp=0):
-    offset = offsetHour + hourdisp
+# 电表数据，获取以小时为单位位移的历史能耗
+def getHistoryHourValue(offsetHour, data, daydisp=0):
+    offset = offsetHour + daydisp*24
     data['HL' + str(offsetHour)] = data['Value']
     data['HL' + str(offsetHour)][offset:]=data['HL' + str(offsetHour)][:-offset]
     data['HL' + str(offsetHour)][:offset]=None
+    return data
+
+def getHistoryHourValue(offsetHour, data,historydata, daydisp=0):
+    offset = offsetHour + daydisp*24
+    size = data.shape[0]
+    data['HL' + str(offsetHour)]=historydata[-size-offset:-offset].reset_index(drop=True)['Value']
+    #print(data)
     return data
 
 
