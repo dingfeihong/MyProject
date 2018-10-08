@@ -1,0 +1,294 @@
+#include "WebClient.h"
+
+std::map<string, queue<Message> > WebClient::receiveMessage;
+std::mutex WebClient::receiveMutex;
+std::queue<Message> WebClient::sendMessage;
+std::mutex WebClient::sendMutex;
+
+/**
+ * 构造函数, 在第一次实例化的时候使用
+ * 功能：(1) 变量初始化
+ *       (2) 启动工作线程
+ */
+WebClient::WebClient(io_service &io_service) 
+	: AsioPlus(io_service) {
+		hasSend[0].clear();
+		hasSend[1].clear();
+	}
+
+/**
+  *发送客户端标识符
+  *
+  */
+void WebClient::sendClientId() {
+	boost::system::error_code ec;
+	shared_ptr<XMLDocument> doc = createBaseXML();
+	XMLElement *root = doc -> FirstChildElement("root");
+	root -> InsertFirstChild(doc -> NewElement("client_id"));
+   	root = root -> FirstChildElement("client_id");
+	root -> InsertFirstChild(doc -> NewText(CLIENTID));
+	string xmlStr(xmlDocumentToString(doc));
+	cout << xmlStr << endl;
+	sendXML(xmlStr.c_str(), xmlStr.size(), T_ID_VALIDATE, ec);
+	if(ec) this -> mySocket -> close();
+}
+
+/**
+ * 连接服务器，失败的话睡眠1秒
+ * 返回：成功与否
+ */
+bool WebClient::connectServer(ip::tcp::endpoint &ep) {
+	try{
+		this -> mySocket -> connect(ep);
+	} catch (exception &e) {
+		cout << "not open" << endl;
+		this -> mySocket -> close();
+		return false;
+	}
+	this -> lastConnectTime = clock();
+	return true;
+}
+
+/**
+ * 发送心跳包
+ * 输入：ec 错误码
+ * 
+ */
+bool WebClient::sendHeartBeat(boost::system::error_code &ec) {
+	clock_t localtime = clock();
+	if(localtime - this -> lastConnectTime > 10000000) {
+		this -> lastConnectTime = localtime;
+		string content = getTimeString();
+		this -> sendXML(content.c_str(), content.size(), T_HEART_BEAT, ec);
+		if(ec) {this -> mySocket -> close(); return true;}
+		cout << "发送服务器心跳" << endl;
+		return true;
+	}
+	return false;
+}
+
+/**
+ * 放入收到消息队列
+ * 输入：网关id 消息对象
+ */
+void WebClient::putReceiveMessage(std::string gatewayId, shared_ptr<Message> msg) {
+	std::lock_guard<std::mutex> lck(receiveMutex);
+	receiveMessage[gatewayId].push(*msg);
+}
+
+/**
+ * 测试收到消息队列是否为空
+ * 输入：网关id
+ */
+bool WebClient::isReceiveEmpty(std::string gatewayId) {
+	std::lock_guard<std::mutex> lck(receiveMutex);
+	return receiveMessage[gatewayId].empty();
+}
+
+/**
+ * 取出收到消息队列 (先测试队列不为空！）
+ * 输入：网关id
+ * 输出：队头消息
+ */
+shared_ptr<Message> WebClient::getReceiveMessage(std::string gatewayId) {
+	std::lock_guard<std::mutex> lck(receiveMutex);
+	cout << "gatewayId: " << gatewayId << endl;
+	shared_ptr<Message> msg = make_shared<Message>(WebClient::receiveMessage[gatewayId].front());
+	cout << msg -> getData() << endl;
+	WebClient::receiveMessage[gatewayId].pop();
+	return msg;
+}
+
+/**
+ * 放入发送消息队列
+ * 输入：消息对象指针
+ */
+void WebClient::putSendMessage(shared_ptr<Message> msg) {
+	if(msg -> getType() != 85 && msg -> getType() != 5) {
+		while(WebClient::sendMessage.size() > 3) {
+			cout << "too full!" << endl;
+			sleep(5);
+		}
+	}
+	std::lock_guard<std::mutex> lck(sendMutex);
+	WebClient::sendMessage.push(*msg);
+}
+
+/**
+ * 测试发送消息队列是够为空
+ * 输出：是否为空
+ */
+bool WebClient::isSendEmtpy() {
+	std::lock_guard<std::mutex> lck(sendMutex);
+	return WebClient::sendMessage.empty();
+}
+
+/**
+ * 取出发送消息队列（先测试队列不为空）
+ * 输出：队头消息
+ */
+shared_ptr<Message> WebClient::getSendMessage() {
+	std::lock_guard<std::mutex> lck(sendMutex);
+	shared_ptr<Message> msg = make_shared<Message>(WebClient::sendMessage.front());
+	WebClient::sendMessage.pop();
+	return msg;
+}
+
+/**
+ * 处理电表控制信息
+ * 功能：将收到的消息放入对应网关的队列
+ * 输入：电表控制消息指针
+ */
+void WebClient::receiveMeterControl(shared_ptr<Message> msg) {
+	boost::system::error_code ec;
+	cout << "收到控制信息" << endl;
+	pss ret = getCommonContent(msg -> getData());
+	putReceiveMessage(ret.second, msg);
+	shared_ptr<XMLDocument> doc = createCommonXML(ret.first, ret.second, "meter_control");
+	XMLElement* root = doc -> FirstChildElement("root");
+	root -> InsertEndChild(doc -> NewElement("data"));
+	root = root -> FirstChildElement("data");
+	root -> SetAttribute("operation", "request");
+	root -> InsertEndChild(doc -> NewElement("result"));
+	root -> FirstChildElement("result") -> InsertEndChild(doc -> NewText("ok"));
+	root -> InsertEndChild(doc -> NewElement("time"));
+	root -> FirstChildElement("time") -> InsertEndChild(doc -> NewText(getTimeString().c_str()));
+	string content = xmlDocumentToString(doc);
+	sendXML(content.c_str(), content.size(), T_METER_CONTROL, ec);
+	if(ec) {this -> mySocket -> close(); return; }
+}
+
+/**
+ * 缓存设备表信息
+ * 将设备表转换成xml并缓存
+ */
+void WebClient::receiveDevice(shared_ptr<Message> msg) {
+	shared_ptr<XMLDocument> doc(new XMLDocument());
+	doc -> Parse(msg -> getData());
+	DeviceManager::getInstance() -> XMLtoMenMeterDevice(doc);
+	shared_ptr<XMLDocument> ansDoc = createBaseXML();
+	XMLElement *root = ansDoc -> FirstChildElement("root");
+	root -> InsertFirstChild(ansDoc -> NewElement("version_id"));
+	root -> InsertFirstChild(ansDoc -> NewElement("result"));
+	root -> FirstChildElement("result") -> InsertFirstChild(ansDoc -> NewText("success"));
+	root -> FirstChildElement("version_id") -> InsertFirstChild(ansDoc -> NewText(doc -> FirstChildElement("root") -> FirstChildElement("version_id") -> GetText()));
+	string answer = xmlDocumentToString(ansDoc);
+	boost::system::error_code ec;
+	sendXML(answer.c_str(), answer.size(), T_DEV, ec);
+	if(ec) {this -> mySocket -> close();}
+}
+
+/**
+ * 定时检查是够有重传消息
+ * 
+ */
+bool WebClient::reSend() {
+	clock_t localtime = clock();
+	if(localtime - this -> lastCheckTime > 10000000) {
+		this -> lastCheckTime = localtime;
+		for(auto it : hasSend[1]) {
+			putSendMessage(it.second);
+		}
+		hasSend[1].clear();
+		for(auto it : hasSend[0]) {
+			hasSend[1][it.first] = it.second;
+		}
+		hasSend[0].clear();
+		return true;
+	}
+	return false;
+}
+
+/**
+ * 处理收到的信息
+ * 输入：message指针
+ */
+void WebClient::processMessage(shared_ptr<Message> msg) {
+	std::string versionId;
+	switch(msg -> getType()) {
+		case T_HEART_BEAT:
+			break;
+		case T_METER_CONTROL:
+			receiveMeterControl(msg);
+			break;
+		case T_METER_CONTROL_ANS:
+			cout << msg -> getData() << endl;
+			break;
+		case T_DEV:
+			cout << msg -> getData() << endl;
+			receiveDevice(msg);
+			break;
+		case T_METER_VIP_UPLOAD:
+		case T_UP_AIR:
+		case T_UP_SOCKET:
+		case T_UP_LIGHT:
+		case T_UP_ELE:
+		case T_UP_OTHER:
+			versionId = getVersionIdFromXML(msg -> getData());
+			if(hasSend[0].count(versionId)) hasSend[0].erase(versionId);
+			else if(hasSend[1].count(versionId)) hasSend[1].erase(versionId);
+			break;
+			//缓存部门，区域相关表功能不实现
+		case T_AREA_DEV:
+			break;
+		case T_DEP_DEV:
+			break;
+		case T_AREA:
+			break;
+		case T_DEP:
+			break;
+	}
+}
+
+/**
+ * 工作函数
+ * 功能：(1) 启动客户端并和服务器建立链接
+ *       (2) 负责接受和发送信息
+ */
+void WebClient::clientWork() {
+	ip::tcp::endpoint ep(ip::address::from_string("218.193.130.43"), 13);
+	//ip::tcp::endpoint ep(ip::address::from_string("10.131.241.172"), 13);
+	//ip::tcp::endpoint ep(ip::address::from_string("10.131.4.11"), 60000);
+	//ip::tcp::endpoint ep(ip::address::from_string("10.131.200.70"), 13);
+	//ip::tcp::endpoint ep(ip::address::from_string("10.131.241.206"), 13);
+	
+	boost::system::error_code ec;
+	bool isOpen = false;
+	while(true) {
+		if(this -> mySocket -> is_open()) {
+			if(isOpen == false) {
+				isOpen = true;
+				this -> sendClientId();
+			}
+			if(this -> canRead()) {
+				shared_ptr<Message> msg(this -> readAMessage(ec));
+				if(ec) {this -> mySocket -> close() ;continue;}
+				this -> processMessage(msg);
+			}else if(!WebClient::isSendEmtpy()) {
+				shared_ptr<Message> msg = getSendMessage();
+				cout << "发送服务器数据：" << endl;
+				cout << "Length: ";
+				cout << msg -> getLength() << endl;
+				cout << "versionId: ";
+				cout << getVersionIdFromXML(msg -> getData()) << endl;
+				hasSend[0][getVersionIdFromXML(msg -> getData())] = msg;
+				this -> sendXML(msg -> getData(), msg -> getLength(), msg -> getType(), ec);
+				if(ec) continue;
+			}
+			if(this -> sendHeartBeat(ec)) continue;
+			if(this -> reSend()) continue;
+			continue;
+		} else {
+			isOpen = false;
+			sleep(1);
+			cout << "连接断开，正在建立连接，请稍等..." << endl;
+			if(this -> connectServer(ep)) {
+				cout << "连接建立成功！" << endl;
+			}else {
+				cout << "重连失败，请检查服务器！" << endl;
+			}
+		}
+		sleep(1);
+	}
+}
+
