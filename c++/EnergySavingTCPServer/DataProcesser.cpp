@@ -108,16 +108,17 @@ void DataProcesser::packageXML(vector<dataItemTs> &itemList, vector<shared_ptr<M
 	addVersionId(electricityDoc);
 	addVersionId(otherDoc);
 	ofstream out("output.txt", ios::app);
+	
 	std::string airStr(xmlDocumentToString(airDoc));
-	cout << airStr << endl;
+	cout << "airStr" << endl;
 	std::string lightStr(xmlDocumentToString(lightDoc));
-	out << lightStr << endl;
+	out << "lightStr" << endl;
 	std::string intelligentStr(xmlDocumentToString(intelligentDoc));
-	out << intelligentStr << endl;
+	out << "intelligentStr" << endl;
 	std::string electricityStr(xmlDocumentToString(electricityDoc));
-	cout << electricityStr << endl;
+	cout << "electricityStr" << endl;
 	std::string otherStr(xmlDocumentToString(otherDoc));
-	cout << otherStr << endl;
+	cout << "otherStr" << endl;
 	Message airMsg(T_UP_AIR, airStr.size(), airStr);
 	ret.push_back(make_shared<Message>(airMsg));
 	Message lightMsg(T_UP_LIGHT, lightStr.size(), lightStr.c_str());
@@ -139,12 +140,18 @@ void DataProcesser::packageXML(vector<dataItemTs> &itemList, vector<shared_ptr<M
   */
 vector<shared_ptr<Message> > DataProcesser::checkIsReady() {
 	time_t current = time(NULL);
-	vector<shared_ptr<Message> > ret; ret.clear();
+	vector<shared_ptr<Message> > ret; 
+	ret.clear();
+	
 	lock_guard<std::mutex> lock(dataMutex);
 	cout << "剩余：" << current << ' ' << lastSend << ' ' << dataItemList.size() << endl;
-	if(dataItemList.size() == 0 || current - lastSend <= 10) return ret;
+	if(dataItemList.size() == 0 || current - lastSend <= 10) 
+		return ret;
+	
 	lastSend = current;
-	vector<dataItemTs> itemList; itemList.clear();
+	vector<dataItemTs> itemList; 
+	itemList.clear();
+	
 	for(int i=0; i<dataItemList.size(); i++) {
 		if((i + 1)%300 == 0) {	
 			cout << "parse: " << itemList.size() << endl;
@@ -169,7 +176,8 @@ std::vector<shared_ptr<Message> > DataProcesser::checkIsReadyVip() {
 	std::vector<shared_ptr<Message> > ret;
 	ret.clear();
 	lock_guard<std::mutex> lock(insLock);
-	if(meterVipList.size() == 0 || current - lastSendVip < 10) return ret;
+	if(meterVipList.size() == 0 || current - lastSendVip < 10) 
+		return ret;
 	lastSendVip = current;
 	std::shared_ptr<XMLDocument> doc = createBaseXML();	
 	XMLElement *root = doc -> FirstChildElement("root");
@@ -273,16 +281,28 @@ std::vector<shared_ptr<Message> > DataProcesser::checkIsReadyDevice() {
 	int ec;
 	vector<std::string> DeviceXMLNames = getDeviceFiles();
 	vector<shared_ptr<Message> > ret; ret.clear();
-	for(string name : DeviceXMLNames) if(!pset.isExist(name)) {
-		shared_ptr<XMLDocument> doc = make_shared<XMLDocument>(new XMLDocument());
-		pset.insertItem(name);
-		string path = "deviceData/" + name;
-		cout << path << " is processed" << endl;
-		ec = doc -> LoadFile(path.c_str());
-		if(ec) continue;
-		vector<shared_ptr<Message>> msg = DeviceDataProcessing(doc);
-		for(int i=0; i<msg.size(); i++) ret.PB(msg[i]);
-		sleep(1);
+	for(string name : DeviceXMLNames) {
+		if(pset.isExist(name))
+		{
+			//cout << name << " has already processed" << endl;
+		}
+		else{
+			cout << name << " is processing" << endl;
+			shared_ptr<XMLDocument> doc = make_shared<XMLDocument>(new XMLDocument());
+			
+			string path = "deviceData/" + name;
+			cout << path << " is processed" << endl;
+			ec = doc -> LoadFile(path.c_str());
+			if(ec) {
+                cout<<"ERROR:"<<ec<<endl;
+                continue;
+            }
+			vector<shared_ptr<Message>> msg = DeviceDataProcessing(doc);
+			for(int i=0; i<msg.size(); i++) 
+                ret.PB(msg[i]);
+            pset.insertItem(name);
+			sleep(1);
+		}
 	}
 	return ret;
 }
@@ -294,8 +314,7 @@ std::vector<shared_ptr<Message> > DataProcesser::checkIsReadyDevice() {
 void DataProcesser::EnergyDataProcessing(shared_ptr<XMLDocument> doc) {
 	DeviceManager *manager = DeviceManager::getInstance();
 	DataProcesser *processer = DataProcesser::getInstance();
-	XMLElement *device = doc -> FirstChildElement("root") -> FirstChildElement("data")
-		-> FirstChildElement("Device");
+	XMLElement *device = doc -> FirstChildElement("root") -> FirstChildElement("data")-> FirstChildElement("Device");
 	while(device) {
 		XMLElement *item = device -> FirstChildElement("EnergyItemResult");
 		std::string meterId = device -> Attribute("id");
@@ -304,7 +323,9 @@ void DataProcesser::EnergyDataProcessing(shared_ptr<XMLDocument> doc) {
 			std::string meterCost = item -> FirstChildElement("F_DATAVALUE") -> GetText();
 			std::string statue = item -> FirstChildElement("F_STATUS") -> GetText();
 			if(statue == "1") {
+                
 				vector<dataItem> vd = manager -> getDeviceConsumption(meterId, atof(meterCost.c_str()));
+                
 				for(auto item : vd) {
 					processer -> addData(make_tuple(get<0>(item), get<1>(item), get<2>(item), TimeTrans(time)));
 				}
@@ -324,14 +345,24 @@ void DataProcesser::checkIsReadyEnergy() {
 	PersistentSet<string> pset(FILENAME);
 	int ec;
 	vector<std::string> DataXMLNames = getDataFiles();
-	for(string name : DataXMLNames) if(!pset.isExist(name)){
-		shared_ptr<XMLDocument> doc = make_shared<XMLDocument>(new XMLDocument());
-		string path = "data/" + name;
-		ec = doc -> LoadFile(path.c_str());
-		if(ec) continue;
-		EnergyDataProcessing(doc);
-		pset.insertItem(name);
-		usleep(100);
+	for(string name : DataXMLNames) {
+		if(pset.isExist(name))
+		{
+			//cout << name << " has already processed" << endl;
+		}
+		else{
+			cout << name << " is processing" << endl;
+			shared_ptr<XMLDocument> doc = make_shared<XMLDocument>(new XMLDocument());
+			string path = "data/" + name;
+			ec = doc -> LoadFile(path.c_str());
+			if(ec) {
+                cout<<"ERROR:"<<ec<<endl;
+                continue;
+            }
+			EnergyDataProcessing(doc);
+			pset.insertItem(name);
+			usleep(100);
+		}
 	}
 }
 

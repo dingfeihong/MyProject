@@ -10,21 +10,32 @@ void session(Client *client)
 	boost::system::error_code ec;
 	try
 	{
-		client -> verification();
+        if(!client -> verification()){
+            return;
+        }
+		
 		for (;;) {
 			if(client -> canRead()) {
 				puts("client get listen!");
+                cout<<"client get listen!"<<endl;
 				//接受一个消息
 				std::shared_ptr<Message> msg(client -> readAMessage(ec));
-				if(ec) break;
+				if(ec) {
+                     cout<<"session read err!"<<endl;
+                    break;
+                }
 				//输出消息信息
 				//puts(msg -> getData());
 				//处理消息
 				client -> processMessage(msg);
-			}else if(!WebClient::isReceiveEmpty(client -> getGatewayId())) {
+			}
+			else if(!WebClient::isReceiveEmpty(client -> getGatewayId())) {
 				shared_ptr<Message> msg = WebClient::getReceiveMessage(client -> getGatewayId());
 				client -> sendXML(msg -> getData(), msg -> getLength(), msg -> getType(), ec);
-				if(ec) break;
+				if(ec) {
+                    cout<<"session err!"<<endl;
+                    break;
+                }
 			}
 			sleep(1);
 		}
@@ -42,7 +53,9 @@ void server(boost::asio::io_service& io_service, unsigned short port)
 		for (;;)
 		{
 			Client *client = new Client(io_service);
+            cout<< "Tcp start listening" <<endl;
 			a.accept(*(client -> getMySocket()));
+            cout<< "Tcp accept connect" <<endl;
 			boost::thread t(boost::bind(session, client));
 		}
 	} catch (std::exception& e) {
@@ -66,24 +79,33 @@ void startDataCheck() {
 	try
 	{
 		while(true) {
-			cout << "--------------start------------" << endl;
+			
+			cout <<endl<< "---------------------start-------------------" << endl;
+            cout << getTime()+":server::startDataCheck"<<endl;
 			processer -> checkIsReadyEnergy();
+			
+			
 			vector<shared_ptr<Message> > messages = processer -> checkIsReady();
 			for(auto msg : messages) {
 				WebClient::putSendMessage(msg, true);
 			}
-			cout << "checkIsReady()" << endl;
+			cout << "ReadyData:" <<messages.size()<< endl;
+			
 			vector<shared_ptr<Message> > meterVip = processer -> checkIsReadyVip();
 			for(auto msg : meterVip) {
 				WebClient::putSendMessage(msg, true);
 			}
-			cout << "checkIsReadyVip()" << endl;
+			cout << "ReadyVip:"<<meterVip.size() << endl;
+			 
 			vector<shared_ptr<Message> > deviceGH = processer -> checkIsReadyDevice();
-			cout << "energy data:" << deviceGH.size() << endl;
+			
 			for(auto msg : deviceGH) {
 				WebClient::putSendMessage(msg, true);
 			}
-			cout << "--------------end------------" << endl;
+			cout << "ReadyDevice:" << deviceGH.size() << endl;
+			
+			cout << getTime()+":server::endDataCheck"<<endl;
+			cout << "--------------------- end -------------------" << endl<< endl;
 			sleep(10);
 		}
 	} catch (std::exception& e) {
@@ -101,17 +123,17 @@ int main(int argc, char* argv[])
 		}
 		boost::asio::io_service io_service;
 		//强制初始化
-		cout << "系统初始化..." << endl;
+		cout << getTime()+ "系统初始化..." << endl;
 		DataProcesser::getInstance();
 		DeviceManager::getInstance();
-		cout << "初始化完毕!" << endl;
+		cout << getTime()+ "初始化完毕!" << endl;
 
 		boost::thread t(startWebClient);
 		boost::thread t2(startDataCheck);
-		//test.clientWork();
+
 		server(io_service, std::atoi(argv[1]));
 	} catch (std::exception& e) {
-		std::cerr << "Exception: " << e.what() << "\n";
+		std::cerr << getTime()+ "Exception: " << e.what() << "\n";
 	}
 
 	return 0;

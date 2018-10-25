@@ -19,7 +19,10 @@ bool Client::verification() {
 	boost::system::error_code ec;
 	//Step1: 接受客户端请求，获取客户端common数据
 	std::shared_ptr<Message> message(this -> readAMessage(ec));	
-	if(ec) return false;
+	if(ec) {
+        cout<<"client verification failed"<<endl;
+        return false;
+    }
 	pss ids = getCommonContent(message -> getData());
 	this -> buildingId = ids.first;
 	this -> gatewayId = ids.second;

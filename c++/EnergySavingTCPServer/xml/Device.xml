@@ -11,6 +11,11 @@
         <power_name>other</power_name>
     </item>
     <item>
+        <device_id>15000000000001</device_id>
+        <parent_dev_id>-1</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
         <device_id>02000000000001</device_id>
         <parent_dev_id>06001401000009</parent_dev_id>
         <power_name>照明设备</power_name>
@@ -27,7 +32,12 @@
     </item>
     <item>
         <device_id>2052</device_id>
-        <parent_dev_id>06001401000009</parent_dev_id>
+        <parent_dev_id>-1</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
+        <device_id>2050</device_id>
+        <parent_dev_id>-1</parent_dev_id>
         <power_name>照明设备</power_name>
     </item>
     <item>
@@ -20298,4 +20308,37 @@
     <item>
         <device_id>dev22</device_id>
         <parent_dev_id>1606200071471</parent_dev_id>
-        <power_name>other
+        <power_name>other</power_name>
+    </item>
+    <item>
+        <device_id>12345654321</device_id>
+        <parent_dev_id>06001424002240</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
+        <device_id>123456789012345</device_id>
+        <parent_dev_id>-1</parent_dev_id>
+        <power_name>other</power_name>
+    </item>
+    <item>
+        <device_id>123456</device_id>
+        <parent_dev_id>1606200071471</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
+        <device_id>0987654321</device_id>
+        <parent_dev_id>1606200071471</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
+        <device_id>1234567890</device_id>
+        <parent_dev_id>-1</parent_dev_id>
+        <power_name>照明设备</power_name>
+    </item>
+    <item>
+        <device_id>111111111111</device_id>
+        <parent_dev_id>-1</parent_dev_id>
+        <power_name>other</power_name>
+    </item>
+    <version_id>1498746951163</version_id>
+</root>

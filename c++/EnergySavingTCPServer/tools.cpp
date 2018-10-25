@@ -244,7 +244,8 @@ vector<std::string> getFiles(std::string cate_dir)
 	DIR *dir;  
 	struct dirent *ptr;  
 	char base[1000];  
-	if ((dir=opendir(cate_dir.c_str())) == NULL) return files;
+	if ((dir=opendir(cate_dir.c_str())) == NULL) 
+        return files;
 	while ((ptr=readdir(dir)) != NULL) {  
 		if(strcmp(ptr->d_name,".")==0 || strcmp(ptr->d_name,"..")==0) 
 			continue;  

@@ -120,9 +120,10 @@ std::shared_ptr<BYTE> Message::getSendMSG(int &retLength) {
 	int tp = 0;
 	//构造消息头
 	BYTE head[2] = MSG_HEAD;
-	for(int i=0; i<2; i++) buffer[tp ++] = head[i];
+	for(int i=0; i<2; i++) 
+        buffer[tp ++] = head[i];
 	//构造版本号
-	//for(int i=0; i<2; i++) buffer[tp ++] = this -> version[i];
+	for(int i=0; i<2; i++) buffer[tp ++] = this -> version[i];
 	//构造消息种类
 	buffer[tp ++] = this -> type;
 	//构造保留字段 8个空字节

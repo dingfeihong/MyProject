@@ -1,0 +1,625 @@
+锘�<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<root>
+    <version_id>0</version_id>
+    <common>
+        <UploadDataCenterID>West-1</UploadDataCenterID>
+        <CreateTime>2018/10/19 14:00:00</CreateTime>
+    </common>
+    <data>
+        <Device id="01142500000236">
+            <c>1</DeviceType>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>28</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:07:18</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>28</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:17:19</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>28</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:27:20</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>28</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:37:21</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:47:23</F_GATHERTIME>
+                <F_DATAVALUE>28</F_DATAVALUE>
+            </DeviceAttributes>
+        </Device>
+        <Device id="01142500000233">
+            <DeviceType>1</DeviceType>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>29</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:07:05</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:17:07</F_GATHERTIME>
+                <F_DATAVALUE>29</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:27:08</F_GATHERTIME>
+                <F_DATAVALUE>29</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>29</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:37:09</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>29</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:47:10</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+        </Device>
+        <Device id="01142500000231">
+            <DeviceType>1</DeviceType>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:07:01</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:17:02</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:27:03</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>27</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:37:04</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>27</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>10</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>6</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:47:06</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+        </Device>
+        <Device id="01142500000217">
+            <DeviceType>1</DeviceType>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>19</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>4</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:07:21</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>4</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>18</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:17:22</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>4</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>27</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>18</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:27:11</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>4</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>27</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>19</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:37:13</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>27</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>18</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:47:14</F_GATHERTIME>
+                <F_DATAVALUE>4</F_DATAVALUE>
+            </DeviceAttributes>
+        </Device>
+        <Device id="01142500000210">
+            <DeviceType>1</DeviceType>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>3</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:07:09</F_GATHERTIME>
+                <F_DATAVALUE>24</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>24</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>3</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:17:10</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>24</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>3</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:26:59</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>3</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:37:01</F_GATHERTIME>
+                <F_DATAVALUE>24</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="5">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>24</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="7">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>2</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="4">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>0</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="2">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>1</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="6">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>3</F_DATAVALUE>
+            </DeviceAttributes>
+            <DeviceAttributes id="3">
+                <F_GATHERTIME>2018/10/19 13:47:02</F_GATHERTIME>
+                <F_DATAVALUE>26</F_DATAVALUE>
+            </DeviceAttributes>
+        </Device>
+    </data>
+</root>

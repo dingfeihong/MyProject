@@ -37,17 +37,24 @@ DeviceManager::DeviceManager() {
 	shared_ptr<XMLDocument> dd_doc(new XMLDocument());
 	shared_ptr<XMLDocument> a_doc(new XMLDocument());
 	shared_ptr<XMLDocument> d_doc(new XMLDocument());
+    
 	ec = md_doc -> LoadFile("xml/Device.xml");
-	if(!ec) XMLtoMenMeterDevice(md_doc);
+	if(!ec) 
+        XMLtoMenMeterDevice(md_doc);
 	return ;
 	ec = da_doc -> LoadFile("/xml/DeviceArea.xml");
-	if(!ec) XMLtoMenDeviceArea(da_doc);
+	if(!ec) 
+        XMLtoMenDeviceArea(da_doc);
 	ec = dd_doc -> LoadFile("/xml/DeviceDep.xml");
-	if(!ec) XMLtoMenDeviceDep(dd_doc);
+	if(!ec) 
+        XMLtoMenDeviceDep(dd_doc);
 	ec = a_doc -> LoadFile("/xml/Area.xml");
-	if(!ec) XMLtoMenArea(a_doc);
+	if(!ec) 
+        XMLtoMenArea(a_doc);
 	ec = d_doc -> LoadFile("/xml/Dep.xml");
-	if(!ec) XMLtoMenDep(d_doc);
+	if(!ec) 
+        XMLtoMenDep(d_doc);
+    return;
 }
 
 /**
@@ -70,7 +77,8 @@ DeviceManager* DeviceManager::getInstance() {
 void DeviceManager::XMLtoMenMeterDevice(shared_ptr<XMLDocument> doc) {
 	XMLElement *version = doc -> FirstChildElement("root") -> FirstChildElement("version_id");
 	long long ver = atoll(version -> GetText());
-	if(this -> md_versionId > ver) return ;
+	if(this -> md_versionId > ver) 
+        return ;
 	this -> md_versionId = ver;
 	rwmu.lock();
 	deviceId.clear();
@@ -90,7 +98,8 @@ void DeviceManager::XMLtoMenMeterDevice(shared_ptr<XMLDocument> doc) {
 		parentId.push_back(p_id);
 		meterDevices[p_id].push_back(make_pair(d_id, d_type));
 		//记录能源分项
-		if(p_id == "-1") meterPower[d_id] = d_type;
+		if(p_id == "-1") 
+            meterPower[d_id] = d_type;
 		item = item -> NextSiblingElement();
 	}
 	doc -> SaveFile("xml/Device.xml");
@@ -302,9 +311,15 @@ vector<dataItem> DeviceManager::getDeviceConsumption(std::string id, double con)
 		for(pss mdi : md) {
 			ret.push_back(make_tuple(mdi.first, con / md.size(), mdi.second));
 		}
-	}else {
+	}
+    else {
 		//如果该电表下无设备或者他不是一个电表，直接按照能源分项来统计
-		if(meterPower.count(id)) ret.push_back(make_tuple(id, con, meterPower[id]));
+        
+		if(meterPower.count(id)) {
+            cout<<"meterPower:"<<meterPower[id]<<" con:"<<con<<endl;
+            ret.push_back(make_tuple(id, con, meterPower[id]));
+        }
+        //cout<<"电表"<<endl;
 		ret.push_back(make_tuple(id, con, "电表"));
 	}
 	rwmu.unlock_shared();

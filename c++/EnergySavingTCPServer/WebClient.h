@@ -3,8 +3,10 @@
 
 #include "AsioPlus.h"
 #include "DataProcesser.h"
-
+#include <string>
+#include <time.h>
 class DataProcesser;
+string getTime();
 
 /**
   * WebClient 类 负责和web服务器交互信息
