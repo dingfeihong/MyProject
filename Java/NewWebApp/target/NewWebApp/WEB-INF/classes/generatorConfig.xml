@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+    <properties resource="jdbc.properties"/>
+
+    <classPathEntry location="${jdbc.classPath}" />
+    <context id="context1" >
+        <jdbcConnection driverClass="${jdbc.driver}" connectionURL="${jdbc.url}" userId="${jdbc.username}" password="${jdbc.password}" />
+        <javaModelGenerator targetPackage="com.newWebApp.pojo" targetProject="F:\document\project\Java\NewWebApp\src\main\java" />
+        <sqlMapGenerator targetPackage="com.newWebApp.mapper" targetProject="F:\document\project\Java\NewWebApp\src\main\java"/>
+        <javaClientGenerator targetPackage="com.newWebApp.mapper" targetProject="F:\document\project\Java\NewWebApp\src\main\java" type="XMLMAPPER" />
+        <table tableName="user" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
+        </table>
+
+    </context>
+</generatorConfiguration>
